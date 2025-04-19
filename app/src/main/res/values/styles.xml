@@ -1,0 +1,16 @@
+<resources>
+    <!-- Style background and text -->
+    <style name="Theme.TicTacToe" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <!-- Style for board cells 3x3 -->
+    <style name="TicTacToeCell">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
